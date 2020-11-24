@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gsap": "^3.5.1",
+    "three": "^0.122.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,7 +34,16 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "vue/html-indent": [
+        "error",
+        4
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
